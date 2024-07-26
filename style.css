@@ -603,7 +603,7 @@ footer .nav-links li a:hover {
 
 #project-details {
   padding-top: 4vh;
-  margin: 0 10rem;
+  margin: 0 2rem;
   box-sizing: border-box;
   flex: 1; /* Ensure the section takes the full height minus the footer */
   text-align: center; /* Center align text */
@@ -621,7 +621,7 @@ footer .nav-links li a:hover {
 }
 
 .project-image {
-  width: 80%;
+  width: 100%;
   max-width: 600px; /* Ensure a maximum width for large images */
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -634,6 +634,32 @@ footer .nav-links li a:hover {
   margin-bottom: 2rem;
   max-width: 800px; /* Limit the width of the text for better readability */
 }
+
+/* Video styling */
+.project-video {
+  width: 100%;
+  max-width: 350px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  #project-details {
+    margin: 0 1rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+}
+
+
 /* BODY TOP MARGIN */
 
 body {
